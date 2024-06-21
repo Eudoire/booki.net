@@ -18,5 +18,7 @@ Pour installer et exécuter ce projet localement, veuillez suivre les étapes ci
    ```bash
    git clone https://github.com/Eudoire/booki.net.git
 
+   (Suite du readme à venir, code en cours de construction)
+
    
 
