@@ -19,7 +19,7 @@ Pour installer et exécuter ce projet localement, veuillez suivre les étapes ci
 
 ## Utilisation
 
-Pour utiliser la plateforme Booki.net, suivez les étapes ci-dessous :
+Pour utiliser la plateforme Booki.net, j'ai pris soins de suivre le cahier des charges:
 
 ### Recherche de voyages
 
