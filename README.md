@@ -47,6 +47,6 @@ Ce projet est sous licence MIT. Veuillez vous référer au fichier [LICENSE](LIC
 
 ## Crédits
 
-Ce projet a été conçu et développé par Maxime Edouard avec le soutien d'OpenClassrooms. Merci à toutes les personnes et ressources qui ont contribué à rendre ce projet possible.
+Ce projet a été conçu et développé par Maxime Edouard avec le soutien d'OpenClassrooms. La maquette Figma de Booki a été fournie par OpenClassrooms et intégrée par mes soins. Merci à toutes les personnes et ressources qui ont contribué à rendre ce projet possible.
 
 
