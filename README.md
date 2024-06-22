@@ -17,36 +17,7 @@ Pour installer et exécuter ce projet localement, veuillez suivre les étapes ci
    ```bash
    git clone https://github.com/Eudoire/booki.net.git
 
-## Utilisation
+   (Suite du readme à venir, code en cours de construction)
 
-Pour utiliser la plateforme Booki.net, suivez les étapes ci-dessous :
-
-### Recherche de voyages
-
-- Les usagers peuvent rechercher des hébergements dans la ville de leur choix à l'aide d'un champ de saisie éditable, englobé dans un formulaire.
-- Note : La partie Recherche ne doit pas être fonctionnelle pour cette première version.
-
-### Navigation
-
-- Les textes "Hébergements" et "Activités" dans l'en-tête sont des liens menant respectivement aux sections "Hébergements à Marseille" et "Activités à Marseille".
-
-### Cartes d'hébergements et d'activités
-
-- Chaque carte doit être cliquable dans son intégralité.
-- Les liens sont simulés avec `href="#"`.
-
-### Filtres de recherche
-
-- Les hébergements peuvent être filtrés par thématique, comme le budget ou l’ambiance.
-- Les filtres changent de couleur au survol de la souris.
-- Les filtres ne sont pas fonctionnels pour cette première version.
-
-## Licence
-
-Ce projet est sous licence MIT. Veuillez vous référer au fichier [LICENSE](LICENSE) pour plus de détails.
-
-## Crédits
-
-Ce projet a été conçu et développé par Maxime Edouard avec le soutien d'OpenClassrooms. Merci à toutes les personnes et ressources qui ont contribué à rendre ce projet possible.
-
+   
 
