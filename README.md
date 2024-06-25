@@ -41,6 +41,13 @@ Pour utiliser la plateforme Booki.net, j'ai pris soins de suivre le cahier des c
 - Les filtres changent de couleur au survol de la souris.
 - Les filtres ne sont pas fonctionnels pour cette première version.
 
+### Responsive design
+
+- La version desktop du site, pleinement fonctionnelle, se comportant correctement de la résolution 1024px à la résolution 1440px 
+- ≤ 1024px pour l'affichage tablette et <768px pour l'affichage mobile
+- Respecter l'ordre du code fournis dans le CSS : d'abord le code CSS global, puis la media query tablette, puis la version mobile.
+- Définir une largeur maximum à 1440px pour gérer correctement les écrans avec une grande résolution, ainsi qu'une largeur minimum de 320px
+
 ## Licence
 
 Ce projet est sous licence MIT. Veuillez vous référer au fichier [LICENSE](LICENSE) pour plus de détails.
