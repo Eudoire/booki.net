@@ -1,17 +1,23 @@
 body {
-    min-width: 320px; /* Largeur minimale pour le contenu de la page par rapport au cahier des charges*/
+    padding-top: 82px; /* Ajustement pour compenser la hauteur du header fixe */
 }
 
 header {
     width: 100%;
-    max-width: 1440px; /* Largeur maximale pour le header par raport au cahier des charges*/
+    max-width: 1440px; /* Largeur maximale pour le header par rapport au cahier des charges */
     height: 79px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    margin: auto; /* Centre le header dans la page */
+    margin: 0 auto; /* Centre le header dans la page */
     box-sizing: border-box; /* Assure que le padding est inclus dans la largeur */
+    position: fixed; /* Fixe le header en haut de la page */
+    top: 0; /* Alignement en haut */
+    left: 0; /* Alignement à gauche pour couvrir toute la largeur */
+    right: 0; /* Alignement à droite pour couvrir toute la largeur */
+    z-index: 1000; /* S'assure que le header reste au-dessus des autres éléments */
+    background-color: #FFF; /* Assure que le fond du header n'est pas transparent */
 }
 
 .header-logo {
@@ -25,13 +31,55 @@ header {
     align-items: center;
 }
 
-.header-nav a {
+.header-nav .header-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 0 10px;
+}
+
+.header-nav .header-link .underline-effect {
+    position: absolute;
+    top: -3px; /* Positionnement pour coller le trait bleu en haut */
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: white;
+}
+
+.header-nav .header-link.active .underline-effect,
+.header-nav .header-link:hover .underline-effect {
+    background: #0065FC;
+}
+
+.header-nav .header-link a {
     text-decoration: none;
     color: black;
     font-weight: 500;
+    padding: 25px;
 }
 
-.header-nav a:hover, .header-nav .active {
-    border-top: 3px solid #0065FC;
+.header-nav .header-link.active a,
+.header-nav .header-link a:hover {
     color: #0065FC;
+}
+
+/* Responsive styles */
+@media (max-width: 480px) {
+    .header-nav {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .header-nav .header-link {
+        padding: 10px 0;
+    }
+}
+
+@media (min-width: 481px) {
+    .header-nav {
+        flex-direction: row;
+        gap: 20px;
+    }
 }

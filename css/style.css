@@ -16,7 +16,9 @@
 body {
     display: flex;
     justify-content: center;
+    min-width: 320px; /* Largeur minimale pour le contenu de la page par rapport au cahier des charges*/
 }
+
 
 .main-container {
     width: 100%;
