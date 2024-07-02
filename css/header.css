@@ -1,7 +1,4 @@
-body {
-    padding-top: 82px; /* Ajustement pour compenser la hauteur du header fixe */
-}
-
+/******* header ******/
 header {
     width: 100%;
     max-width: 1440px; /* Largeur maximale pour le header par rapport au cahier des charges */
