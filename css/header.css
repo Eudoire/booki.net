@@ -62,21 +62,3 @@ header {
     color: #0065FC;
 }
 
-/* Responsive styles */
-@media (max-width: 480px) {
-    .header-nav {
-        flex-direction: column;
-        gap: 0;
-    }
-
-    .header-nav .header-link {
-        padding: 10px 0;
-    }
-}
-
-@media (min-width: 481px) {
-    .header-nav {
-        flex-direction: row;
-        gap: 20px;
-    }
-}
