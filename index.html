@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booki</title>
+    <link rel="shortcut icon" href="./images/shortcut_icon/hammac.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
@@ -15,37 +15,37 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
-
 <body>
     <div class="main-container">
         <header>
-            <a href="index.html">
-                <img src="./images/logo/Booki.png" alt="Logo Booki" class="header-logo">
-            </a>
-            <nav class="header-nav">
-                <div class="header-link active">
-                    <a href="#">Hébergements</a>
-                    <div class="underline-effect"></div>
-                </div>
-                <div class="header-link">
-                    <a href="#">Activités</a>
-                    <div class="underline-effect"></div>
-                </div>
-            </nav>
+            <div class="header-top">
+                <a href="index.html">
+                    <img src="./images/logo/Booki.png" alt="Logo Booki" class="header-logo">
+                </a>
+                <nav class="header-nav">
+                    <div class="header-link active">
+                        <div class="underline-effect"></div>
+                        <a href="#">Hébergements</a>
+                    </div>
+                    <div class="header-link">
+                        <div class="underline-effect"></div>
+                        <a href="#">Activités</a>
+                    </div>
+                </nav>
+            </div>
             <!--Headline-->
             <div class="headline">
                 <h1>Trouvez votre hébergement pour des vacances de rêve.</h1>
-                    <p>En plein centre-ville ou en pleine nature</p>
+                <p>En plein centre-ville ou en pleine nature</p>
             </div>
             <!-- formulaire de recherche avec affichage differrent sur mobile-->
-             <form action="#" class="search-form">
+            <form action="#" class="search-form">
                 <i class="fas fa-map-marker-alt"></i>
                 <input type="text" placeholder="Marseille, France" class="search-input">
+                <button type="submit" class="search-button">Rechercher</button>
                 <button type="submit" class="magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i></button>
-             </form>
+            </form>
         </header>
-        
-       
+    </div>
 </body>
-
 </html>
