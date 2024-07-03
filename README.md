@@ -1,6 +1,6 @@
 # Booki.net - Page d'Accueil de l'Agence de Voyage en Ligne
 ![Capture d'écran 2024-07-03 151644](https://github.com/Eudoire/booki.net/assets/62968598/ca96607f-8940-45a3-83f9-6cb1a4806f07)
-(image de la page d'acceuil en construction.)
+(image de la page d'accueil en construction.)
 Bienvenue sur Booki.net, votre agence de voyage en ligne dédiée à vous offrir une expérience de réservation fluide et agréable. Notre plateforme permet aux utilisateurs de rechercher, planifier et réserver des voyages avec une grande facilité. Que ce soit pour des vacances, des voyages d'affaires ou des escapades de week-end, Booki.net est là pour répondre à tous vos besoins.
 
 ## Sommaire
